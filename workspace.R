@@ -11,6 +11,6 @@ multiply_factor = ifelse(is.null(ctx$op.value('multiply_factor')), 1, as.numeric
 ctx %>% 
   select(.y, .ri, .ci) %>% 
   group_by(.ri, .ci) %>%
-  "*"(multiply_factor) %>%
+  mutate(value = multiply_factor*.y) %>%
   ctx$addNamespace() %>%
   ctx$save()
