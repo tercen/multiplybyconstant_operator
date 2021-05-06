@@ -1,50 +1,23 @@
-# Template R operator
-
-The `Template R operator` is a template repository for the creation of R operators in Tercen. An overview of steps for developing an operator are:
-
-1. create a github repo
-2. install tercen_studio
-3. login to tercen_studio
-4. git clone the newly created repo
-5. start developing in R in tercen_studio
-6. add R packages to the repo
-7. push to the github repo
-8. go to tercen and install the operator
-
-More information can be found in [Tercen app builder's guide](https://tercen.github.io/appbuilders-guide/).
-
-Below is the operator README standard structure:
+# multiply operator
 
 ##### Description
 
-The `Template R operator` is a template repository for the creation of R operators in Tercen.
+`multiplybyconstant` operator returns the product two sets of data points.
 
 ##### Usage
 
 Input projection|.
 ---|---
-`x-axis`        | type, description 
-`y-axis`        | type, description 
-`row`           | type, description 
-`column`        | type, description 
-`colors`        | type, description 
-`labels`        | type, description 
-
-Input parameters|.
----|---
-`input_var`        | parameter description
+`y-axis`           | is the initial value before multiplication
 
 Output relations|.
 ---|---
-`output_var`        | output relation
-`Operator view`        | view of the Shiny application
+`product`          | numeric, product value returned per data point
 
 ##### Details
 
-Details on the computation.
+The operator takes the value defined by the y-axis and multiplies this by a constant. The computation is done per data point. There is one value calculated and returned for each data point.
 
 ##### See Also
 
-[template_shiny_operator](https://github.com/tercen/template_shiny_operator)
-, [template_docker_operator](https://github.com/tercen/template_docker_operator)
-
+[subtract](https://github.com/tercen/subtract_operator), [sum](https://github.com/tercen/sum_operator), [product](https://github.com/tercen/product_operator), [ratio](https://github.com/tercen/ratio_operator), [add](https://github.com/tercen/ratio_operator)
