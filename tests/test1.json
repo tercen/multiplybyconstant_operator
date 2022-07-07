@@ -10,13 +10,6 @@
   "labels": [],
   "yAxis": "y_values",
   "xAxis": "",
-  "generatedOn": "07/07/2022 03:42:40 PM 2022",
-  "version": "",
-  "propertyValues": [
-    {
-    "kind": "PropertyValue",
-    "name": "multiply_factor",
-    "value": "2"
-    }
-  ]
+  "generatedOn": "07/07/2022 03:50:18 PM 2022",
+  "version": ""
 }
