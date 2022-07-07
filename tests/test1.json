@@ -1,0 +1,22 @@
+{
+  "kind": "OperatorUnitTest",
+  "name": "test1",
+  "namespace": "ds0",
+  "inputDataUri": "test1_in.csv",
+  "outputDataUri": ["test1_out_1.csv"],
+  "columns": [],
+  "rows": [],
+  "colors": [],
+  "labels": [],
+  "yAxis": "y_values",
+  "xAxis": "",
+  "generatedOn": "07/07/2022 03:42:40 PM 2022",
+  "version": "",
+  "propertyValues": [
+    {
+    "kind": "PropertyValue",
+    "name": "multiply_factor",
+    "value": "2"
+    }
+  ]
+}
