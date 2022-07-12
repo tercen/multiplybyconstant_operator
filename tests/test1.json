@@ -20,5 +20,6 @@
     "name": "multiply_factor",
     "value": "2"
     }
-  ]
+  ],
+"relTol": 1e-05
 }
