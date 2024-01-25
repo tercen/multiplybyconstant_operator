@@ -1,6 +1,6 @@
 {
   "name": "Multiply by Constant",
-  "description": "Multiply by constant.",
+  "description": "Multiplies by an arbitrary constant.",
   "tags": [
     "arithmetic"
   ],
