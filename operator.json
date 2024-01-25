@@ -1,15 +1,21 @@
 {
   "name": "Multiply by Constant",
   "description": "Multiply by constant.",
-  "tags": ["pamgene"],
-  "authors": ["tercen"],
-  "urls": ["https://github.com/tercen/multiplybyconstant_operator"],
+  "tags": [
+    "arithmetic"
+  ],
+  "authors": [
+    "tercen"
+  ],
+  "urls": [
+    "https://github.com/tercen/multiplybyconstant_operator"
+  ],
   "properties": [
-  {
-    "kind": "DoubleProperty",
-    "name": "multiply_factor",
-    "defaultValue": 1,
-    "description": "A constant that is used for multiplication of the current numeric values."
-  }
+    {
+      "kind": "DoubleProperty",
+      "name": "multiply_factor",
+      "defaultValue": 1,
+      "description": "A constant that is used for multiplication of the current numeric values."
+    }
   ]
 }
