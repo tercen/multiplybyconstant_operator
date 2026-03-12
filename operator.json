@@ -54,7 +54,7 @@
               {
                 "kind": "MetaFactor",
                 "name": "Initial Value",
-                "type": "numeric",
+                "type": "double",
                 "description": "The initial value before multiplication.",
                 "ontologyMapping": "measurement",
                 "crosstabMapping": "y",
